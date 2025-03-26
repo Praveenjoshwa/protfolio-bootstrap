@@ -75,7 +75,7 @@
         </div>
     </section>
     </div>
-    <section id="about" class="mt-5 vh-100">
+    <section id="about" class="mt-5 vh-lg-100">
         <div class="mt-5 pt-5 ">
             <p class="text-center text-secondary  m-0">Get to know more</p>
             <h1 class="display-5 fw-bold text-black text-center">About Me</h1>
@@ -120,21 +120,21 @@
 
 
 
-    <section id="experience" class="vh-100">
+    <section id="experience" class="vh-lg-100">
         <div>
             <p class="text-center text-secondary pt-5">Explore My</p>
             <h1 class="display-5 fw-bold text-black text-center">Experience</h1>
         </div>
         <div class="container mt-5">
-            <div class="row d-flex justify-content-between">
-                <div class="col-5 border border-dark rounded-5 p-5 text-center">
+            <div class="row d-flex gap-lg-1 gap-5 justify-content-between">
+                <div class="col-lg-5  border border-dark rounded-5 p-5 text-center">
                     <h2 class="text-secondary fs-3 ">Frontend Development</h2>
                     <div class="container row pt-3">
                         <article class="col-6">
                             <i class="bi bi-file-code fw-bold fs-1"></i>
                             <div>
-                                <h3>HTML</h3>
-                                <p>Intermediate</p>
+                                <h3 class="fw-bold ">HTML</h3>
+                                <p  class="text-secondary fw-semibold">Intermediate</p>
                             </div>
                         </article>
                         <article class="col-6">
@@ -160,7 +160,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="col-5 border border-dark rounded-5 p-5 text-center">
+                <div class="col-lg-5 border border-dark rounded-5 p-5 text-center">
                     <h2 class="text-secondary">Backend Development</h2>
                     <div class="container row pt-3">
                         <article class="col-6">
@@ -194,14 +194,26 @@
 
 
     </section>
-    <section id="projects" class="vh-100">
+    <section id="projects" class="vh-lg-100">
         <div class="m-5 pt-5">
             <p class="text-center text-secondary p-0 m-0">Browse My Recent</p>
             <h1 class="display-5 fw-bold text-black text-center">Projects</h1>
         </div>
         <div class="container ">
-            <div class="row d-flex justify-content-around">
-                <div class="col-3 border border-secondary p-4 rounded-5">
+            <div class="row d-flex gap-5 gap-lg-0  justify-content-around">
+                <div class="col-lg-3 border border-secondary p-4 rounded-5">
+                    <div class="">
+                        <img src="./assets/project-1.png" alt="project-1" class="img-fluid rounded-5 ">
+                    </div>
+                    <h2 class="fw-bold text-center fs-3 p-2 text-black">Project One</h2>
+                    <div class="d-flex justify-content-around ">
+                        <button class="btn btn-outline-dark rounded-pill fw-semibold px-4 "
+                            onclick="window.open('./assets/resume-example.pdf')">Git hub</button>
+                        <button class="btn btn-outline-dark rounded-pill px-3 py-2 fw-semibold"
+                            onclick="location.href='./#contact'"> Live Demo</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 border border-secondary p-4 rounded-5">
                     <div class="">
                         <img src="./assets/project-1.png" alt="project-1" class="img-fluid rounded-5 ">
                     </div>
@@ -213,19 +225,7 @@
                             onclick="location.href='./#contact'"> Live Demo</button>
                     </div>
                 </div>
-                <div class="col-3 border border-secondary p-4 rounded-5">
-                    <div class="">
-                        <img src="./assets/project-1.png" alt="project-1" class="img-fluid rounded-5 ">
-                    </div>
-                    <h2 class="fw-bold text-center fs-3 p-2 text-black">Project One</h2>
-                    <div class="d-flex justify-content-around">
-                        <button class="btn btn-outline-dark rounded-pill fw-semibold px-4"
-                            onclick="window.open('./assets/resume-example.pdf')">Git hub</button>
-                        <button class="btn btn-outline-dark rounded-pill px-3py-2 fw-semibold"
-                            onclick="location.href='./#contact'"> Live Demo</button>
-                    </div>
-                </div>
-                <div class="col-3 border border-secondary p-4 rounded-5">
+                <div class="col-lg-3 border border-secondary p-4 rounded-5">
                     <div class="">
                         <img src="./assets/project-1.png" alt="project-1" class="img-fluid rounded-5 ">
                     </div>
@@ -252,18 +252,18 @@
                     <h1 class="display-5 fw-bold text-black">Contact Me</h1>
                 </div>
 
-                <div class="container col-6 mt-5 pt-5">
+                <div class="container col-lg-6 mt-lg-5 pt-lg-5">
                     <div class="row  d-flex justify-content-center align-items-center border border-dark rounded-5">
                         <!-- Email -->
-                        <div class="col-md-6 d-flex align-items-center justify-content-center gap-3 my-3 ">
+                        <div class="col-lg-6 col-md-8 d-flex align-items-center justify-content-center  my-lg-3  ">
                             <i class="bi bi-envelope-fill fs-3 text-primary text-black"></i>
                             <p class="m-0"><a href="mailto:bpj4510@gmail.com"
                                     class="text-decoration-none fw-semibold fs-4 text-black">bpj4510@gmail.com</a></p>
                         </div>
 
                         <!-- LinkedIn -->
-                        <div class="col-md-6 d-flex align-items-center justify-content-center gap-3 my-3 ">
-                            <i class="bi bi-linkedin fs-3 text-primary text-black"></i>
+                        <div class="col-lg-6 col-md-4  d-flex align-items-center justify-content-center gap-3 my-3 ">
+                            <i class="bi bi-linkedin fs-3 text-primary text-black "></i>
                             <p class="m-0"><a href="https://www.linkedin.com/in/bpj45/"
                                     class="text-decoration-none fw-semibold fs-4 text-black">LinkedIn</a></p>
                         </div>
@@ -273,8 +273,8 @@
 
             <footer class="py-3 mt-auto mb-auto">
                 <nav>
-                    <div class="container">
-                        <ul class="list-unstyled d-flex flex-row justify-content-center gap-3">
+                    <div class="container ">
+                        <ul class="list-unstyled d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3">
                             <li><a href="#about"
                                     class="p-2 text-decoration-none text-dark text-black fs-5 fw-semibold">About</a>
                             </li>
